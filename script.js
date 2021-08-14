@@ -140,4 +140,41 @@ const questions = [
             { text: 'ag', correct: true }
         ]
     },
+    {
+        question: 'What country has the most islands in the world?',
+        answers: [
+            { text: 'Singapore', correct: false },
+            { text: 'Australia', correct: false },
+            { text: 'India', correct: false },
+            { text: 'Sweden', correct: true }
+        ]
+    },
+     {
+        question: 'Name the best-selling book series of the 21st century?',
+        answers: [
+            { text: 'Harry Potter', correct: true },
+            { text: 'The Chronicles of Narnia', correct: false },
+            { text: 'A Song of Ice and Fire', correct: false },
+            { text: 'Discworld', correct: false }
+        ]
+    },
+    {
+        question: 'How many keys does a classic piano have?',
+        answers: [
+            { text: '88', correct: true },
+            { text: '76', correct: false },
+            { text: '102', correct: false },
+            { text: '67', correct: false }
+        ]
+    },
+    {
+        question: 'What is the all-time most-streamed song on Spotify to date?',
+        answers: [
+            { text: 'Closer', correct: false },
+            { text: 'Despacito', correct: false },
+            { text: 'Senorita', correct: false },
+            { text: 'Shape of you', correct: true }
+        ]
+    },
+    
 ]
